@@ -1,8 +1,36 @@
-# React + Vite
+# TaskQueue 🗒️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskQueue is a minimalistic and intuitive to-do app that helps you organize your tasks efficiently. 
+Built with React, Material-UI (MUI), and Redux Toolkit.
 
-Currently, two official plugins are available:
+## Demo 🔄
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Demo](https://friendly-shortbread-9257c1.netlify.app)
+
+## Screenshots 📸
+
+![Sample Image](/public/sampleImage.png)
+
+## Installation 🚀
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/kumaranhk/todoApp.git
+   cd todoApp
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the app:**
+   ```bash
+   npm run dev
+   ```
+
+## Technologies Used 🛠️
+
+- **React**: For building the user interface.
+- **Material-UI (MUI)**: For sleek, responsive components.
+- **Redux Toolkit**: For state management.

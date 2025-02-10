@@ -111,7 +111,7 @@ function TodoCard({ id, title, isCompleted }) {
             <></>
           ) : (
             <Tooltip
-              title={isCompleted ? "Mark as not completed" : "Mark as Completed"}
+              // title={isCompleted ? "Mark as not completed" : "Mark as Completed"}
               leaveDelay={200}
             >
               <FormControlLabel

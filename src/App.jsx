@@ -29,7 +29,7 @@ function App() {
             .filter((val) => val.isCompleted == false)
             .map((val) => (
               <Grid2 key={val.id} size={{ xs: 1, sm: 2, md: 2 }}>
-                <TodoCard id={val.id} title={val.title} status={val.status} />
+                <TodoCard id={val.id} title={val.title} isCompleted={val.isCompleted} />
               </Grid2>
             ))}
           <DefaultCard />
@@ -56,7 +56,7 @@ function App() {
               .filter((val) => val.isCompleted != false)
               .map((val) => (
                 <Grid2 key={val.id} size={{ xs: 1, sm: 2, md: 2 }}>
-                  <TodoCard id={val.id} title={val.title} status={val.status} />
+                  <TodoCard id={val.id} title={val.title} isCompleted={val.isCompleted} />
                 </Grid2>
               ))
           )}
