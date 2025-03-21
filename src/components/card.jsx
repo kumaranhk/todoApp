@@ -81,7 +81,6 @@ function TodoCard({ id, title, isCompleted }) {
             <>
               <TextField
                 color="warning"
-                variant="h5"
                 id="outlined-textarea"
                 label="Todo Title"
                 height="100%"
